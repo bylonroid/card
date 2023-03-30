@@ -7,17 +7,18 @@
 }
 
 body{
-    background-color: #f7f7f7;
-    
+background-image: url('bg.jpg');
+    background-size: cover;
+    width: 100%;
+  height: 100vh;
 }
 
 .container{
-    padding: 20px;
+    padding: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: auto;
-    margin-top:35px;
+    min-height: 100vh;
 }
 
 .card{
